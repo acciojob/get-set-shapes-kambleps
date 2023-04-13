@@ -1,5 +1,5 @@
 //complete this code
-class Rectangular{
+class  Rectangl{
 	constructor(width,height){
 		this.width = width;
 		this.height = height;
@@ -11,15 +11,15 @@ class Rectangular{
 		return this.height;
 	}
 	getArea(){
-		return this.width*this.height;
+		return this.width * this.height;
 	}
 }
-class Square extends Rectangular{
+class Square extends  Rectangl{
 	constructor(side){
 		super(side,side)
 	}
 	getPerimeter(){
-		return 4*this.width;
+		return 4 * this.width;
 	}
 }
 
