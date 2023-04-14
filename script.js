@@ -1,5 +1,5 @@
 //complete this code
-class  Rectangl{
+class  Rectangle{
 	constructor(width,height){
 		this.width = width;
 		this.height = height;
@@ -14,7 +14,7 @@ class  Rectangl{
 		return this.width * this.height;
 	}
 }
-class Square extends  Rectangl{
+class Square extends  Rectangle{
 	constructor(side){
 		super(side,side)
 	}
